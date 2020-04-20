@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned that with Express, I can build RESTful web services that work with JSON and have the compatitblity to connect to middleware.
+
 - [ ] Describe Middleware?
+
+There are three tyoes of middleware. Theres a built-in middleware which is included with Express. There is third-party middleware that are npm modules we can install and import into our application using require(). Custom middleware is middleware we write ourselves.
+
 
 - [ ] Describe a Resource?
 
+A RESTful API is the resourse. A resourse is an object with a type, assoicated data, relationships to other resourse, and a set of methods that operate on it.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API would return HTTP response status code. 
+
 - [ ] How can we partition our application into sub-applications?
+
+We can use express routers to better organized our code.
 
 ## Minimum Viable Product
 
